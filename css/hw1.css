@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+main {
+    display:flex;
+    margin: 3vw;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+h1 {
+    color: pink;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  color: pink;
+}
+
+a:hover, a:active {
+    color: #ADD8E6
+}
+
+h1:hover {
+    color: #ADD8E6;
+}
+
+p button  {
+    padding: 1vw;
+    background-color: white;
+    color: pink;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* button:hover{
+    background-color: yellow;
+    font-size: 50px;
+    color: yellow;
+} */
