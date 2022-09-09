@@ -1,43 +1,45 @@
 body {
-    background-color: green;
-   
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+
+
 }
 
 main {
-    background: yellow;
     display:flex;
-    margin: 4vw;
-    border: solid black 5px;
+    margin: 3vw;
     align-items: center;
     justify-content: center;
     justify-content: space-around;
 }
 
-p {
-    background-color: pink;
-    padding: 4vw;
-    border-radius: 25px;
-    border: dotted black 3px;
+h1 {
+    color: pink;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
 }
 
-footer {
- background-color: rebeccapurple;
- display: flex;
+a:link, a:visited {
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  color: pink;
 }
 
-footer:hover{
-    background-color: blue;
-}
-footer button  {
-    padding: 5vw;
-    background-color: pink;
-    border-radius: 50px;
-    margin: 5vw;
-
+a:hover, a:active {
+    color: #ADD8E6
 }
 
-button:hover{
-    background-color: yellow;
-    font-size: 50px;
-    color: yellow;
+h1:hover {
+    color: #ADD8E6;
+}
+
+p button  {
+    padding: 1vw;
+    background-color: white;
+    color: pink;
+    margin: 0 auto;
+    text-align: center;
 }
