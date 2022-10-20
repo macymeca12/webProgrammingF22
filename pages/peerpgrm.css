@@ -4,9 +4,11 @@ body{
   margin-left: 20px;
 }
 
+
+/*start of code from https://codepen.io/bramus/pen/XWWbGYO****************************/
 /* limit width so that content will need to scroll */
 main {
-  max-width: 30em;
+  max-width: 50em;
 }
 
 /* SCROLL SNAPPING */
@@ -17,26 +19,28 @@ main {
 .scroll-item {
   scroll-snap-align: center;
 }
-/* make 3rd item bigger to show that items don't need to have the same width */
-.scroll-item:nth-child(3) {
+/* NOT NEEDED- WANT ALL BOXES TO BE THE SAME WIDTH *******************************
+/* make 3rd item bigger to show that items don't need to have the same width
+scroll-item:nth-child(3) {
   width: 15em;
 }
-/* make 5th item bigger to show that items don't need to have the same width */
+/* make 5th item bigger to show that items don't need to have the same width
 .scroll-item:nth-child(5) {
   height: 15em;
-}
+} */
 
 /* FLEXBOX LAYOUT */
 .scroll-container[data-layoutmethod="flexbox"] {
   display: flex;
   flex-wrap: nowrap;
-  align-items: center; /* vertically align children */
+  align-items: center;
 }
 .scroll-container[data-layoutmethod="flexbox"] .scroll-item {
   margin-right: 1em; /* fake gap */
   flex: 0 0 auto;
+  width: 20em;/* controls the width of the boxes */
+  height: 20em;/* controls the height of the boxes */
 }
-
 
 
 /** OTHER STYLES **/
@@ -46,11 +50,14 @@ body {
   margin: 0;
   padding: 0;
 }
-
+a{
+  margin-left: 100px;
+  color: red;
+}
 /* center main element */
 main {
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 5em;
   border: 1px solid rgba(0,0,0,0.1);
 }
 
@@ -76,3 +83,4 @@ ul {
   justify-content: center;
   align-items: center;
 }
+/* end of code from https://codepen.io/bramus/pen/XWWbGYO******************************************/
