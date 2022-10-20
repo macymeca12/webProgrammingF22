@@ -44,6 +44,7 @@ scroll-item:nth-child(3) {
   width: 30em; /* controls the width of the boxes */
   height: 20em; /* controls the height of the boxes */
 }
+
 img {
   width: 30em;
   height: 20em;
