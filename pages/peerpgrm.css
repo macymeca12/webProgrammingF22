@@ -1,9 +1,9 @@
-body{
-  background-color: #9DBF9E;
+body {
+  background-color: #9dbf9e;
   margin: auto;
   margin-left: 20px;
 }
-a{
+a {
   margin-left: 100px;
   color: red;
 }
@@ -41,17 +41,19 @@ scroll-item:nth-child(3) {
 .scroll-container[data-layoutmethod="flexbox"] .scroll-item {
   margin-right: 1em; /* fake gap */
   flex: 0 0 auto;
-  width: 30em;/* controls the width of the boxes */
-  height: 20em;/* controls the height of the boxes */
+  width: 30em; /* controls the width of the boxes */
+  height: 20em; /* controls the height of the boxes */
 }
-img{
-  width:30em;
+img {
+  width: 30em;
   height: 20em;
 }
 
 /** OTHER STYLES **/
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -61,7 +63,7 @@ body {
 main {
   margin: 0 auto;
   padding: 5em;
-  border: 1px solid rgba(0,0,0,0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* remove list styles */
@@ -75,12 +77,22 @@ ul {
   /* make it square */
   width: 10em;
   height: 10em;
-  border: 1px solid rgba(0,0,0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 
   /* center contents */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
 /* end of code from https://codepen.io/bramus/pen/XWWbGYO******************************************/
