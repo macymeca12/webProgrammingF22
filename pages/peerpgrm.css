@@ -8,6 +8,32 @@ a {
   color: red;
 }
 
+h1 {
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  color: #9dbf9e;
+}
+
+a:hover,
+a:active {
+  color: #add8e6;
+}
+p button {
+  padding: 1vw;
+  background-color: white;
+  color: #9dbf9e;
+  margin: 50 auto;
+  text-align: center;
+}
+
 /*start of code from https://codepen.io/bramus/pen/XWWbGYO****************************/
 /* limit width so that content will need to scroll */
 main {
