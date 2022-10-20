@@ -3,7 +3,10 @@ body{
   margin: auto;
   margin-left: 20px;
 }
-
+a{
+  margin-left: 100px;
+  color: red;
+}
 
 /*start of code from https://codepen.io/bramus/pen/XWWbGYO****************************/
 /* limit width so that content will need to scroll */
@@ -38,10 +41,13 @@ scroll-item:nth-child(3) {
 .scroll-container[data-layoutmethod="flexbox"] .scroll-item {
   margin-right: 1em; /* fake gap */
   flex: 0 0 auto;
-  width: 20em;/* controls the width of the boxes */
+  width: 30em;/* controls the width of the boxes */
   height: 20em;/* controls the height of the boxes */
 }
-
+img{
+  width:30em;
+  height: 20em;
+}
 
 /** OTHER STYLES **/
 body {
@@ -50,10 +56,7 @@ body {
   margin: 0;
   padding: 0;
 }
-a{
-  margin-left: 100px;
-  color: red;
-}
+
 /* center main element */
 main {
   margin: 0 auto;
@@ -74,13 +77,10 @@ ul {
   height: 10em;
   border: 1px solid rgba(0,0,0, 0.1);
 
-  /* some basic styling */
-  background: #ccc;
-  border-radius: 0.2em;
-
   /* center contents */
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /* end of code from https://codepen.io/bramus/pen/XWWbGYO******************************************/
