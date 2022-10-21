@@ -1,6 +1,6 @@
 body {
   background-color: #9dbf9e;
-  margin: auto;
+  margin: center;
   margin-left: 20px;
 }
 a {
@@ -30,7 +30,7 @@ p button {
   padding: 1vw;
   background-color: white;
   color: #9dbf9e;
-  margin: 50 auto;
+  margin: auto;
   text-align: center;
 }
 
@@ -38,6 +38,7 @@ p button {
 /* limit width so that content will need to scroll */
 main {
   max-width: 50em;
+  text-align: center;
 }
 
 /* SCROLL SNAPPING */
@@ -91,6 +92,7 @@ main {
   margin: 0 auto;
   padding: 5em;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  align-content: center;
 }
 
 /* remove list styles */
