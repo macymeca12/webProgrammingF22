@@ -1,55 +1,55 @@
 body {
-    background-color: white;
-    margin: 0 auto;
-    text-align: center;
-
-
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
 }
 
 main {
-    display:flex;
-    margin: 3vw;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
+  display: flex;
+  margin: 3vw;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
 }
 
 h1 {
-    color: pink;
-    border-radius: 10px;
-    text-align: center;
-    margin: 0 auto;
+  color: pink;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   text-decoration: none;
   text-align: center;
   margin: 0 auto;
   color: pink;
 }
 
-a:hover, a:active {
-    color: #ADD8E6
+a:hover,
+a:active {
+  color: #add8e6;
 }
 
 h1:hover {
-    color: #ADD8E6;
+  color: #add8e6;
 }
 
-p button  {
-    padding: 1vw;
-    background-color: white;
-    color: pink;
-    margin: 0 auto;
-    text-align: center;
+p button {
+  padding: 1vw;
+  background-color: white;
+  color: pink;
+  margin: 0 auto;
+  text-align: center;
 }
 
 p {
-	text-align: left;
+  text-align: left;
+  color: pink;
 }
 
 h3 {
-
   padding-top: 25px;
   padding-bottom: 10px;
   font-weight: 200;
@@ -57,4 +57,3 @@ h3 {
   line-height: 1;
   text-align: center;
 }
-
